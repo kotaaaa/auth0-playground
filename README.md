@@ -2,8 +2,8 @@
 
 https://auth0.com/docs
 
-- frontend login function
-- backend API authenticate with specific scope
+- Frontend(React) login function
+- Backend API (Express.js) authenticate with specific scope
 
 ## Frontend (React)
 
@@ -37,7 +37,7 @@ $ curl --request POST \
 $ curl -X GET "http://localhost:3001/api/private" --header 'authorization: Bearer XXX'
 ```
 
-Added `read:messages` permission on (Auth0 API page)[https://manage.auth0.com/dashboard/us/dev-m810kno1f46bc674/apis]
+Added `read:messages` permission on [Auth0 API page](https://manage.auth0.com/dashboard/us/dev-m810kno1f46bc674/apis)
 
 ```
 # to access private scope endpoint
