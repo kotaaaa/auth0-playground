@@ -5,7 +5,7 @@ https://auth0.com/docs
 - Frontend(React) login function
 - Backend API (Express.js) authenticate with specific scope
 
-## Frontend (React)
+## Login/Logout function (React)
 
 ### `npm start`
 
@@ -21,7 +21,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Backend (Express)
+## API Authentication (Express)
 
 ### `npm start`
 
